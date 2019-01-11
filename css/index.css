@@ -256,3 +256,42 @@ img.header-image {
 .bottom-description {
     padding: 40px 10px;
 }
+
+.main-content-contact {
+	padding: 18px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-content-contact img {
+	align-self: flex-start;
+}
+
+.main-content-contact .contact-main-text{
+	width: 350px;
+}
+
+.main-content-contact .contact-form {
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 15px;
+    background: #f1f1f1;
+    border-radius: 5px;
+    margin: 20px 0;
+    margin-left: -10px;
+}
+
+.main-content-contact .contact-main-description {
+	padding: 0 15px;
+}
+
+.main-content-contact .contact-form .form-entry {
+    margin: 10px 0;
+}
+
+.main-content-contact .contact-form .form-entry textarea{
+    width: 300px;
+    margin-top: 10px;
+}
