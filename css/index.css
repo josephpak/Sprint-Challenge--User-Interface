@@ -101,6 +101,8 @@ p {
     justify-content: space-evenly;
 }
 
+/* Home Page Box Styles */
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -151,6 +153,8 @@ p {
 .middle-content .boxes .box10 {
     background: dodgerblue;
 }
+
+/* -- End Home Page Box Styles */
 
 .bottom-content {
     display: flex;
@@ -233,9 +237,10 @@ img.header-image {
 
 .main-content-boxes .box button {
     border: 1.2px solid black;
-    border-radius: 5px;
-    padding: 5px 14px;
-    margin-top: 10px;
+    border-radius: 8px;
+    padding: 7px 17px;
+    margin-top: 23px;
+    font-size: 14px;
 }
 
 .top-description {
