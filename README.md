@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+The term 'semantic HTML' is used to describe HTML that is written in a manner that allows a reader to derive meaning from the HTML file. Semantic HTML best-practice is to use HTML element tags that convey purpose - using h1 for a large heading instead of div. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+a. Height and width do not have any effect on elements that have a 'display: inline;' designation. Block elements take as much space as their parent element will allow, inline elements only takes up as much as its content.
+b. Block elements will break to the next line after previous elements, inline elements will not.
 
 3. What are the 4 areas of the box model?
 
+From outside to in -- margin, border, padding, content
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The cross axis
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable to a team of developers so that they can all work on and contribute to a project without writing over others' code accidentally. Git also allows for nice processes for bringing together team members' code to create one, final source-of-truth codebase.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -49,16 +60,16 @@ You are expected to be able to answer all these questions. Your responses contri
 Follow these steps to set up and work on your project:
 
 - [x] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [x] Add PM as collaborator on Github.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on this Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your Project Manager as a Reviewer on the Pull-request
+- [x] Add your Project Manager as a Reviewer on the Pull-request
 - [ ] PM then will count the HW as done by  merging the branch back into master.
  
 
