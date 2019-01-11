@@ -48,7 +48,7 @@ You are expected to be able to answer all these questions. Your responses contri
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
+- [x] Create a forked copy of this project.
 - [ ] Add PM as collaborator on Github.
 - [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
 - [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
